@@ -74,124 +74,50 @@ img {
 }
 
 /* ---Menu Items--- */
-.menu-item,
-.contact-item,
-.text-footer {
+.menu-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.menu-item {
   font-weight: 500;
   color: var(--navy-blue);
   padding: 24px 0;
 }
 
 .menu-item:hover,
-.menu-item:focus,
-.contact-item:hover,
-.contact-item:focus {
+.menu-item:focus {
   color: var(--ocean);
 }
 
-.address-contact {
+.header-link {
   color: inherit;
-}
-
-.contact-item {
-  font-weight: 400;
-  color: var(--slate);
-}
-
-/* ---Titles--- */
-.title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--white);
-  margin-bottom: 48px;
-}
-
-.title-hero {
-  background: var(--navy-blue);
-  display: flex;
-  padding: 188px 0;
-}
-
-.title-portfolio,
-.our-portfolio-page {
-  padding: 120px 0;
-}
-
-/* ---Buttons Service--- */
-.button-service {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--iris);
-  color: var(--white);
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  margin: auto;
-  border: none;
-}
-
-.button-service:hover,
-.button-service:focus {
-  background-color: var(--ocean);
-}
-
-/* ---Container--- */
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-/* ---Header box--- */
-.header-box {
-  border-bottom: 1px solid var(--cornflower);
-}
-
-.container-menu {
-  display: flex;
-}
-
-.page-nav {
-  display: flex;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
 }
 
 /* ---Contacts--- */
 .contacts {
   padding-top: 24px;
-  margin-left: 332px;
 }
 
 .contact-list {
   display: flex;
   gap: 40px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .contact-item {
-  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: var(--slate);
 }
 
-.address-contact {
-  color: var(--navy-blue);
+.address-link {
+  color: inherit;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
 }
 
 /* ---Footer--- */
@@ -206,4 +132,18 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+/* ---Utility--- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
