@@ -14,33 +14,40 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
+
 body {
   font-family: var(--font-family);
   color: var(--slate);
   background-color: var(--white);
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 button {
   cursor: pointer;
 }
+
 h1,
 h2,
 h3,
 p {
   margin: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 /* ---Logo--- */
 .logo {
   font-family: var(--second-family);
@@ -52,16 +59,20 @@ img {
   color: var(--iris);
   margin-right: 76px;
 }
+
 .logo-word {
   color: var(--navy-blue);
 }
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .logo-word-footer {
   color: var(--cloud);
 }
+
 /* ---Menu Items--- */
 .menu-item,
 .contact-item,
@@ -73,14 +84,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .menu-item {
   font-weight: 500;
   color: var(--navy-blue);
 }
 
-.menu-item {
-  padding: 24px 0;
-}
 .menu-item:hover,
 .menu-item:focus,
 .link:hover,
@@ -89,9 +98,11 @@ img {
 .contact-item:focus {
   color: var(--ocean);
 }
+
 .link {
   color: inherit;
 }
+
 .contact-item,
 .text-benefits,
 .text-avatar,
@@ -100,6 +111,7 @@ img {
   font-weight: 400;
   color: var(--slate);
 }
+
 /* ---Titles--- */
 .title {
   font-weight: 700;
@@ -110,6 +122,7 @@ img {
   color: var(--white);
   margin-bottom: 48px;
 }
+
 .title-benefits,
 .title-avatar,
 .title-images {
@@ -119,6 +132,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+
 .title-team,
 .title-portfolio {
   font-weight: 700;
@@ -130,15 +144,18 @@ img {
   color: var(--navy-blue);
   margin-bottom: 72px;
 }
+
 .title-hero {
   background: var(--navy-blue);
   display: flex;
   padding: 188px 0;
 }
+
 .title-portfolio,
 .our-portfolio-page {
   padding: 120px 0;
 }
+
 /* ---Buttons--- */
 .button-service {
   font-weight: 500;
@@ -155,34 +172,43 @@ img {
   margin: auto;
   border: none;
 }
+
 .button-service:hover,
 .button-service:focus {
   background-color: var(--ocean);
 }
+
 /* ---Container--- */
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 /* ---Header--- */
 .header-box {
   border-bottom: 1px solid var(--cornflower);
 }
+
 .container-menu {
   display: flex;
 }
+
 .page-nav {
   display: flex;
   align-items: center;
 }
+
 .menu {
   display: flex;
   gap: 40px;
 }
-.page-nav .menu .menu-item {
-  padding: 24px 0 !important;
+
+.menu-item,
+.link {
+  padding: 24px 0;
 }
+
 .contacts-box {
   display: flex;
   gap: 40px;
@@ -190,6 +216,7 @@ img {
   padding-top: 24px;
   margin-left: 332px;
 }
+
 /* ---Sections--- */
 /* ---1st Section--- */
 .title-hero .title {
@@ -198,29 +225,36 @@ img {
   margin: auto;
   flex-shrink: 0;
 }
+
 /* ---2nd Section--- */
 .benefits-page {
   padding: 120px 0;
 }
+
 .benefits-list {
   display: flex;
   gap: 24px;
 }
+
 .benefits-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .title-benefits {
   margin-bottom: 8px;
 }
+
 /* ---3rd Section--- */
 .our-team-page {
   padding: 120px 0;
   background-color: var(--cloud);
 }
+
 .our-team-list {
   display: flex;
   gap: 24px;
 }
+
 .team-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
@@ -229,14 +263,17 @@ img {
   background: var(--white);
   text-align: center;
 }
+
 .avatar-information {
   padding: 32px 0;
   text-align: center;
 }
+
 .title-avatar {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .text-avatar {
   font-weight: 400;
   font-size: 16px;
@@ -245,10 +282,12 @@ img {
   color: var(--slate);
   text-align: center;
 }
+
 /* ---4th Section--- */
 .our-portfolio-page {
   padding: 120px 0;
 }
+
 .portfolio-list {
   display: flex;
   flex-shrink: 0;
@@ -256,25 +295,31 @@ img {
   column-gap: 24px;
   flex-wrap: wrap;
 }
+
 .portfolio-item {
   flex-basis: calc((100 - 2 * 24px) / 3);
 }
+
 .app-information {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
 }
+
 .title-images {
   margin-bottom: 8px;
 }
+
 /* ---Footer--- */
 .footer-box {
   background: var(--navy-blue);
   padding: 100px 0;
 }
+
 .text-footer {
   max-width: 264px;
 }
+
 /* ---Utility--- */
 .visually-hidden {
   position: absolute;
